@@ -43,6 +43,9 @@ useHead({
   font-size: 2.25rem;
   color: var(--text-color);
   margin-bottom: 2.5rem;
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+  }
 }
 
 .icon {

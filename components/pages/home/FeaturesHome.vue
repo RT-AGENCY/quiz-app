@@ -62,6 +62,9 @@
 .features-section {
   padding: 5rem 0;
   background-color: white;
+  @media (max-width: 768px) {
+    padding: 3rem 0;
+  }
 }
 
 .features-grid {

@@ -1,8 +1,22 @@
 <template>
-  <div class="p-4">
-    <h1 class="text-2xl font-bold mb-4">Welcome to the Quiz App</h1>
+  <div class="todo-container">
+    <h1 class="todo">Страница в разработке!</h1>
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
+
+<style>
+.todo-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo {
+  width: 100%;
+  margin: 4rem auto;
+  text-align: center;
+}
+</style>

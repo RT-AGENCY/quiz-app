@@ -79,6 +79,9 @@
 .categories-section {
   padding: 5rem 0;
   background-color: #f7fafc;
+  @media (max-width: 768px) {
+    padding: 3rem 0;
+  }
 }
 
 .categories-grid {
@@ -151,6 +154,9 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 1rem;
   color: white;
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 }
 
 .final-cta h2 {

@@ -58,6 +58,9 @@
   width: 2rem;
   height: 2px;
   background-color: #e2e8f0;
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .step-number {
