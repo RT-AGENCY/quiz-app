@@ -59,6 +59,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
+  width: 100%;
+  @media (max-width: 768px) {
+    margin: 0;
+    width: auto;
+  }
 }
 
 .logo {
@@ -66,6 +71,9 @@ body {
   font-weight: bold;
   color: #3498db;
   text-decoration: none;
+  @media(max-width: 450px) {
+    font-size: 1rem;
+  }
 }
 
 .nav-links {
@@ -103,6 +111,10 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
+  @media (max-width: 768px) {
+    margin: 0;
+    width: auto;
+  }
 }
 
 .footer {

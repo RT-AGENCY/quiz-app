@@ -171,9 +171,18 @@
   .hero-section .container {
     flex-direction: column;
   }
+  .hero-section {
+    padding: 4rem 0;
+  }
 
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .hero-image {
+    width: 100%;
   }
 }
 </style>
